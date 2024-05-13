@@ -53,6 +53,9 @@ class _ElectionVotePageState extends State<ElectionVotePage> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
+                        //  methana id eka print wenne hadaganim
+
+                        Text("User id : " + widget.title),
                         GestureDetector(
                           onTap: () {
                             setState(() {
@@ -260,6 +263,7 @@ class _ElectionVotePageState extends State<ElectionVotePage> {
               "Title",
               "Name.png",
               "image/png",
+              widget.title,
               text: "This is the Election Form!",
             );
 
@@ -289,6 +293,8 @@ class _ElectionVotePageState extends State<ElectionVotePage> {
     );
   }
 }
+
+///ANy changes Can do Photo Related
 
 class ElectionFiled extends StatefulWidget {
   ElectionFiled({
@@ -355,8 +361,8 @@ class _ElectionFiledState extends State<ElectionFiled> {
                 ),
                 Image.asset(
                   'assets/images/' + widget.electionimage,
-                  height: 50,
-                  width: 50,
+                  height: 30,
+                  width: 30,
                 )
               ],
             ),

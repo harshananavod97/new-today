@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "100967764621",
+    "project_id": "election-app-88586",
+    "storage_bucket": "election-app-88586.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100967764621:android:58a185a2ad492a33a688c4",
+        "android_client_info": {
+          "package_name": "com.example.local_auth_tutorial_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRrL-soUuHGFi5wanSK7R0lJq4283Cs-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

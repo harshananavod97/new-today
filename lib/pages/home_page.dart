@@ -18,13 +18,19 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Center(child: _authButton()),
-        ],
+    return SafeArea(
+      child: Scaffold(
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            //Methana  Hadapan
+            Text("me udaxxx\ngdgdgdg"),
+            /////////////////////////////////////////////////////////
+            SizedBox(height: MediaQuery.of(context).size.width / 2),
+            Center(child: _authButton()),
+          ],
+        ),
       ),
     );
   }
